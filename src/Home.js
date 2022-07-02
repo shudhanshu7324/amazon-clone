@@ -13,8 +13,6 @@ function Home() {
         />
 
         <div className="home__row">
-          {/* product */}
-          // passing value as props
           <Product
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses"
             price={14.99}
@@ -63,7 +61,7 @@ function Home() {
         </div>
 
         <div className="home__row">
-          {/* product */}
+          
           <Product
             title="Samsung LC49HG90DMUXEN 48.9-inch Ultra Wide Curved Monitor (Black)"
             price={980.99}
