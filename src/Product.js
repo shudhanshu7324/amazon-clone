@@ -1,7 +1,8 @@
 import React from "react";
 import "./Product.css";
 
-function Product({id , title , price , rating , image}) {
+                    // taking the arguments as a props
+function Product({id , title , price , rating , image}) {     
   return (
     <div className="product">
       <div className="product__info">

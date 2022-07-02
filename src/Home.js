@@ -14,6 +14,7 @@ function Home() {
 
         <div className="home__row">
           {/* product */}
+          // passing value as props
           <Product
             title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses"
             price={14.99}
