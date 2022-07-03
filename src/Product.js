@@ -15,6 +15,7 @@ function Product({ id, title, price, rating, image }) {
       type: "ADD_TO_BASKET",
       item: {
         id: id,
+        price: price,
         title: title,
         image: image,
         rating: rating,
