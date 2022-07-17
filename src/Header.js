@@ -26,10 +26,12 @@ const [{basket}] = useStateValue();
       </div>
 
       <div className="header__nav">
+        <Link to= '/login'>
         <div className="header__option">
           <span className="header__optionLineOne">Hello Guest</span>
           <span className="header__optionLineTwo">SignIn</span>
         </div>
+        </Link>
         <div className="header__option">
           <span className="header__optionLineOne">Returns</span>
           <span className="header__optionLineTwo">& Orders</span>
